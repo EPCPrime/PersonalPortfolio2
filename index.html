@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/constants.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!-- Title -->
+    <title>Home | Erick</title>
+</head>
+<body>
+    <div class="desktop">
+        <!-- Navbar -->
+        <nav>
+            <span>Erick</span>
+            <div class="nav-menu">
+                <a href="index.html" class="active">Home</a>
+                <a href="about.html">About Me</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </div>
+            <span></span>
+        </nav>
+
+        <!-- Profile -->
+        <div class="profile" data-aos="zoom-in" data-aos-duration="1000">
+            <div class="character"></div>
+        </div>
+
+        <!-- Nama -->
+        <div class="nama" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="salam" id="salam"></p>
+            <p class="nama" id="nama"></p>
+        </div>
+
+        <!-- Detail -->
+        <div class="detail" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="status">Mahasiswa Sistem Informasi UNSRI</p>
+            <p class="angkatan">Angkatan 2021</p>
+        </div>
+
+        <!-- Portfolio -->
+        <div class="portfolio" id="portfolio" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="my-port">My Portfolio</p>
+            <p class="link-port">Here ></p>
+        </div>
+
+        <!-- Domisili -->
+        <div class="domisili" data-aos="zoom-in" data-aos-duration="1000">
+            <p class="domisili">Domisili</p>
+            <p class="lokasi">Palembang, Indonesia</p>
+        </div>
+
+        <!-- Social -->
+        <div class="social" data-aos="zoom-in" data-aos-duration="1000">
+            <ion-icon name="logo-linkedin" id="linkedIn"></ion-icon>
+            <ion-icon name="logo-instagram" id="instagram"></ion-icon>
+            <ion-icon name="logo-github" id="github"></ion-icon>
+        </div>
+
+        <!-- Background Sections -->
+        <div class="background left" data-aos="zoom-in" data-aos-duration="1000"><!-- AbstractBackground --></div>
+        <div class="background right" data-aos="zoom-in" data-aos-duration="1000"><!-- AbstractBackground --></div>
+        <div class="big one" data-aos="zoom-in" data-aos-duration="1000"><!-- AbstractBackground --></div>
+        <div class="big two" data-aos="zoom-in" data-aos-duration="1000"><!-- AbstractBackground --></div>
+        <div class="big three" data-aos="zoom-in" data-aos-duration="1000"><!-- AbstractBackground --></div>
+    </div>
+
+    <!-- Alert Responsive -->
+    <div class="alert-res">
+        <h1>Responsive Alert!</h1>
+        <p>Maaf, halaman website ini belum mampu berjalan sesuai dengan semestinya diukuran layar ini. Mohon untuk maximize halaman ini atau jika anda menggunakan handphone, dimohon untuk menggunakan Mode Desktop</p>
+    </div>
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/typeit.js"></script>
+    <script>    
+        portfolio.addEventListener('click', function() {
+            window.location.href = 'portfolio.html';
+        })
+    </script>
+</body>
+</html>

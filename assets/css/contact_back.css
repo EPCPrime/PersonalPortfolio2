@@ -1,0 +1,21 @@
+/* Background */
+div.background.right {
+    width: 30rem;
+    height: 27rem;
+    position: absolute;
+    z-index: -5;
+    right: -10rem;
+    top: 6rem;
+    background-size: cover;
+    background-image: url('../img/AbstractBackground.svg');
+}
+div.background.left {
+    width: 30rem;
+    height: 27rem;
+    position: absolute;
+    z-index: -5;
+    left: -15rem;
+    bottom: 10rem;
+    background-size: cover;
+    background-image: url('../img/AbstractBackground.svg');
+}

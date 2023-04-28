@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap');
+
+:root {
+    --light-color: #AEBCCE;
+    --dark-color: #353535;
+    --light-gradient: #D8E2EE;
+    --dark-gradient: #C0CEE0;
+    --light-gradient-background: #D8E2EE;
+    --dark-gradient-background: #E7ECF1;
+    --gradient: linear-gradient(128deg, var(--light-gradient) 0%, var(--dark-gradient) 100%);
+    --background-gradient: linear-gradient(108deg, var(--light-gradient-background) 40%, var(--dark-gradient-background) 100%);
+}
